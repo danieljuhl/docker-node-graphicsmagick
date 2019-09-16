@@ -1,5 +1,5 @@
-FROM node:10.15.3-alpine
-# Be aware! node:12 and node:10.16 uses alpine 3.9 which does not support pdftk
+FROM node:10.15.2-alpine
+# Be aware! node >= 12 and node >= 10.15.3 uses alpine 3.9 which does not support pdftk
 
 MAINTAINER danieljuhl
 
