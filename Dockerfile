@@ -109,6 +109,7 @@ RUN apk add --update lzip \
   ffmpeg \
   libjpeg-turbo-dev \
   libpng-dev \
+  libwebp-dev \
   libtool \
   libgomp \
   pdftk \
@@ -129,6 +130,7 @@ RUN apk add --update lzip \
   --disable-static \
   --with-modules \
   --with-threads \
+  --with-webp \
   --with-gs-font-dir=/usr/share/fonts/Type1 \
   --with-quantum-depth=16 && \
   make && \
